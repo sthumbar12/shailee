@@ -12,11 +12,12 @@ public class DBConnect {
 		Class.forName("com.mysql.cj.jdbc.Driver"); 
 	         conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ebook-app","root","Root@1620");
 	
-	
+	         System.out.println("hello");
 	}catch(Exception e) {
 	e.printStackTrace();
 	}
 	return conn;
+	
 	}
 	
 	
